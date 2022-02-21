@@ -17,7 +17,7 @@ class CategoryController extends Controller
             'image'=>'required',
             'images'=>'required',
             'name'=>'required',
-         ]);
+        ]);
 
         $day = $req->day;
         $result = implode(',', $day);
